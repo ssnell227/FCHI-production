@@ -9,7 +9,7 @@ meta_description: Meta description
 homeInspectionBlock:
   - title: Evidence
     text: Gathering photos and measurements with careful attention to detail
-    image: /img/unnamed.jpg
+    image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   - title: Analysis
     text: Review of the results to determine the safety and integrity of the property
     image: /img/unnamed.jpg
