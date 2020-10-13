@@ -74,7 +74,6 @@ const HomePage = ({ data }) => {
         bookingBannerRef={bookingBannerRef}
         servicesRef={servicesRef}
         googleReviews={randomReviews(googleReviews)}
-        // googleReviews={}
       />
     </Layout>
   )
