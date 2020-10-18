@@ -5,7 +5,7 @@ carousel:
   image2: /img/tools.jpg
   image3: /img/ryan-wallace-skflpoxg1rq-unsplash.jpg
   carousel1:
-    title: Fremont County Home Inspection, LLC
+    title: Fremont County Home Inspection
     text: Serving communities in Fremont County and Central Wyoming.
     image: /img/yaroslav-muzychenko-0x7rt228sgm-unsplash.jpg
   carousel2:
@@ -29,18 +29,18 @@ description: Offering comprehensive, affordable home inspection services that
   and excellent customer service.
 services:
   - image: /img/outsite-co-r-lk3sqlibw-unsplash.jpg
-    title: Home Inspections
-  - image: /img/charles-deluvio-qja6wdmrnwm-unsplash.jpg
-    title: Asbestos testing
+    title: Home Inspection
+  - image: /img/asbestos-5.jpg
+    title: Asbestos Inspection
   - image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
     title: Lead Testing
-  - image: /img/featured-testing-for-carbon-monoxide-in-the-home.jpg
-    title: Radon testing
-  - image: /img/7513b791b31ac7fd1514962eed7bbf94w-c0xd-w685_h860_q80.jpg
-    title: Well water testing
+  - image: /img/radon-3-square.jpg
+    title: Radon Testing
+  - image: /img/water-testing.jpg
+    title: Water Testing
 whyblock:
   title: Why choose us?
-  image: /img/unnamed.jpg
+  image: /img/about-us-3_square.jpg
   listitem:
     - title: Licensed
       text: Inspections are performed by Ryan Morse-Brady, an InterNACHI Certified
@@ -48,12 +48,12 @@ whyblock:
         aspects of residential home safety and structural design.
     - title: Expert
       text: "Whether you are buying, selling, or monitoring, Fremont County Home
-        Inspection will tell you everything you need to make confident decisions
-        regarding your property transactions. "
-    - title: Detail-oriented
-      text: All inspections that we perform offer a close-up look at the structural
-        and safety details of a home that may not be apparent at first glance.
+        Inspection will provide you with the information you need to make
+        confident decisions regarding your property investments. "
+    - title: Detail-Oriented
+      text: "All inspections that we perform offer a close-up look at the structural
+        and safety details of a home that may not be apparent at first glance. "
 meta_title: Home | Fremont County Home Inspection
 meta_description: Offering comprehensive, affordable home inspection services in
-  the Fremont County, WY and surrounding areas.
+  Fremont County and Central Wyoming.
 ---
