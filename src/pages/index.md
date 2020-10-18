@@ -5,17 +5,17 @@ carousel:
   image2: /img/tools.jpg
   image3: /img/ryan-wallace-skflpoxg1rq-unsplash.jpg
   carousel1:
-    title: Fremont County Home Inspection
-    text: Serving the greater Fremont County, Wyoming area
+    title: Fremont County Home Inspection, LLC
+    text: Serving communities in Fremont County and Central Wyoming.
     image: /img/yaroslav-muzychenko-0x7rt228sgm-unsplash.jpg
   carousel2:
     title: We pride ourselves on our attention to detail
-    text: so that you can get a home inspection you're confident in
-    image: /img/tools.jpg
+    text: so that you can be confident in your home inspection results.
+    image: /img/2019-08-13-15a-.jpg
   carousel3:
-    title: Same-week availability with real-time booking
-    text: Receive your inspection report within 24 hours!
-    image: /img/ryan-wallace-skflpoxg1rq-unsplash.jpg
+    title: Same-week availability with real-time online booking
+    text: Receive your home inspection report within one business day!
+    image: /img/sunset-from-victor-id.jpg
 bookingBanner:
   - Same week availability.  Real time booking.  Receive your inspection report
     within 24 hours!
