@@ -11,7 +11,7 @@ carousel:
   carousel2:
     title: We pride ourselves on attention to detail
     text: for reliable home inspection results.
-    image: /img/06-18-2016-53-.jpg
+    image: /img/06-18-2016_dark.jpg
   carousel3:
     title: Same-week availability with online booking
     text: Home inspection results within one business day!
