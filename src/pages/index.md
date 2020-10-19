@@ -11,11 +11,11 @@ carousel:
   carousel2:
     title: We pride ourselves on our attention to detail
     text: so that you can be confident in your home inspection results.
-    image: /img/2019-08-13-15a-.jpg
+    image: /img/06-18-2016-53-.jpg
   carousel3:
     title: Same-week availability with real-time online booking
     text: Receive your home inspection report within one business day!
-    image: /img/sunset-from-victor-id.jpg
+    image: /img/8-zion-087.jpg
 bookingBanner:
   - Same week availability.  Real time booking.  Receive your inspection report
     within 24 hours!
@@ -28,7 +28,7 @@ description: Offering comprehensive, affordable home inspection services that
   ourselves on quality, prompt availability, quick inspection report turnaround,
   and excellent customer service.
 services:
-  - image: /img/outsite-co-r-lk3sqlibw-unsplash.jpg
+  - image: /img/2019-08-13-15a-_square.jpg
     title: Home Inspection
   - image: /img/asbestos-5.jpg
     title: Asbestos Inspection
@@ -53,7 +53,7 @@ whyblock:
     - title: Detail-Oriented
       text: "All inspections that we perform offer a close-up look at the structural
         and safety details of a home that may not be apparent at first glance. "
-meta_title: Home | Fremont County Home Inspection
+meta_title: Home | Fremont County Home Inspection, LLC
 meta_description: Offering comprehensive, affordable home inspection services in
   Fremont County and Central Wyoming.
 ---
