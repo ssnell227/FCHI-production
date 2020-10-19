@@ -19,7 +19,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
         <div className='navbar-brand'>
           <Link to='/' className='navbar-item'>
             <img src='/img/circle-logo-FCHI.png'/>
-            <strong>Fremont County Home Inspection</strong>
+            <strong>Fremont County Home Inspection, LLC</strong>
           </Link>
           <button
             className={`button navbar-burger ${isActive ? 'is-active' : ''}`}

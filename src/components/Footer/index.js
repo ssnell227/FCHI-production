@@ -12,11 +12,17 @@ const Footer = () => {
     <footer className='hero is-dark'>
       <div className='level'>
             <div className='level-item'>
+              <Link to='/'>
                 <img src='/img/FChomeinspection.jpg' width='200' alt='Fremont County Home Inspection logo' />
+              </Link>
             </div>
             <div className='level-item stacked'>
-                <img src='/img/internachi.png' width='150' alt='InterNachi certified home inspector badge'/>
+                <img src='/img/internachi.png' width='150' alt='InterNachi Certified Home Hnspector'/>
                 <p>#19100604</p>
+            </div>
+            <div className='level-item stacked'>
+                <img src='/img/asbestos-liscense.png' width='150' alt='South Dakota Certified Asbestos Inspector'/>
+                <p>SD # 8496</p>
             </div>
             <div className='level-item stacked'>
                 <Link className='button is-white is-outlined' to='/contact'>Contact Us</Link>

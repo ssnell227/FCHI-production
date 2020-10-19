@@ -19,6 +19,7 @@ const InfoBlock = ({ content, smallImg }) => (
               <li key={`info-item-${index}`}>
                 {item.title && <h3>{item.title}</h3>}
                 <p>{item.text}</p>
+                {item.link && <a href={item.link.href}><p>{item.link.text}</p></a>}
               </li>
             ))}
           </ul>

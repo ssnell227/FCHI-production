@@ -43,7 +43,7 @@ const HomePageTemplate = ({
                       {heading}
                     </h2>
                     <p>{description}</p>
-                    <Link className='button is-primary' to='/about'>About us</Link>
+                    <Link className='button is-primary' to='/about'>About Us</Link>
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const HomePageTemplate = ({
         <div className='hero-body'>
           <div className='container booking-banner-content'>
             <h3 className='subtitle'>{bookingBanner}</h3>
-            <button className='button is-white is-outlined'>Schedule an appointment now</button>
+            <button className='button is-white is-outlined'>Schedule an Appointment Now</button>
           </div>
         </div>
       </section>
