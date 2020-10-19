@@ -10,12 +10,12 @@ carousel:
     image: /img/yaroslav-muzychenko-0x7rt228sgm-unsplash.jpg
   carousel2:
     title: We pride ourselves on our attention to detail
-    text: so that you can be confident in your home inspection results.
+    text: so you can be confident in your home inspection results.
     image: /img/06-18-2016-53-.jpg
   carousel3:
     title: Same-week availability with real-time online booking
     text: Receive your home inspection report within one business day!
-    image: /img/8-zion-087.jpg
+    image: /img/cover-page.jpg
 bookingBanner:
   - Same week availability.  Real time booking.  Receive your inspection report
     within 24 hours!
