@@ -2,7 +2,7 @@ import React from 'react'
 import Content from '../Content'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 
 import './styles.scss'
 
@@ -75,8 +75,17 @@ const AboutPageTemplate = ({
             </div>
             <div ref={buttonRef} className='column buttons-container'>
               <Link to='/contact' className='button is-primary is-large about-link'>Contact</Link>
-              <a href='https://schedule-a-home-inspection-uub7y.appointlet.com' target='__blank' className='button is-primary is-large about-link'>Book Now</a>
-            </div>
+              <StaticQuery query={graphql`
+    query scheduleLinkAbout  {
+        markdownRemark (id: {eq: "21bc2c2b-fb89-5377-a6dc-536d1c46f8bc"}){
+          frontmatter {
+            schedule_link
+          }
+        }
+      }
+        `} render={data => (
+                  <a target='__blank' href={data.markdownRemark.frontmatter.schedule_link} className='button is-primary is-large about-link'>Book Now</a>
+                )} />            </div>
           </div>
         </section>
       </div>

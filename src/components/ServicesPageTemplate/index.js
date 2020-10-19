@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { Link } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import './styles.scss'
 
 import InfoBlock from '../InfoBlock'
@@ -63,7 +63,17 @@ const ServicesPageTemplate = ({
                         <div className='level-item ' />
                         <Link to='/services#pricing' className='button is-large is-primary level-item button-left'>Pricing</Link>
                         <div className='level-item' />
-                        <a target='__blank' href='https://schedule-a-home-inspection-uub7y.appointlet.com/' className='button is-large is-primary level-item button-right'>Book Now</a>
+                        <StaticQuery query={graphql`
+    query scheduleLinkServices  {
+        markdownRemark (id: {eq: "21bc2c2b-fb89-5377-a6dc-536d1c46f8bc"}){
+          frontmatter {
+            schedule_link
+          }
+        }
+      }
+        `} render={data => (
+                                <a target='__blank' href={data.markdownRemark.frontmatter.schedule_link} className='button is-large is-primary level-item button-right'>Book Now</a>
+                            )} />
                         <div className='level-item' />
                     </div>
                 </section>

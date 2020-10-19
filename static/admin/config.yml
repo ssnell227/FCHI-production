@@ -7,6 +7,14 @@ media_folder: static/img
 public_folder: /img
 
 collections:
+  - name: "misc"
+    label: "Misc"
+    files:
+      - file: "src/misc/header.md"
+        label: "Header"
+        name: "Header"
+        fields:
+          - {label: "Schedule Link", name: "schedule-link", widget: "string"}
   - name: "pages"
     label: "Pages"
     files:
