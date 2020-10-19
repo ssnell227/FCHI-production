@@ -3,7 +3,7 @@ templateKey: regions-page
 meta_title: Regions Served | Fremont County Home Inspection
 meta_description: We are located in Fremont County, WY, and work in all
   communities throughout this area.
-title: "Check whether we serve your area:"
+title: "Check availability in your area:"
 regionsServed:
   regionType:
     - title: Fremont County
@@ -11,10 +11,11 @@ regionsServed:
         throughout this area.  The communities that we most commonly serve
         include:"
     - title: Other Areas
-      blurb: "We are also available to provide services in most areas of Wyoming, with
-        travel fees being applied to services provided outside of Fremont
-        County. Some of the locations that we are available to serve include:"
-  title: Regions served
+      blurb: "We are also available to provide services in most areas of Central
+        Wyoming, with travel fees being applied to services provided outside of
+        Fremont County. Some of the locations that we are available to serve
+        include:"
+  title: Regions Served
 regionsList:
   - region:
       areaName: Arapahoe
