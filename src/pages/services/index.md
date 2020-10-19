@@ -26,12 +26,12 @@ asbestosBlock:
   image: /img/asbestos-5.jpg
   listitem:
     - title: " "
-      text: Inspection and consultation by a licensed and certified asbestos inspector
-        can be performed in both commercial and residential
+      text: "Inspection and consultation by a licensed and certified asbestos
+        inspector can be performed in both commercial and residential
         settings.  Inspections are performed using Asbestos Hazard Emergency
         Response Act (AHERA) guidelines.  Consultation with a licensed inspector
         can be used to guide risk mitigation for building renovations, or to
-        address home safety concerns.
+        address home safety concerns. "
 leadBlock:
   title: Lead Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
