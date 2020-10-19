@@ -22,7 +22,7 @@ homeInspectionBlock:
     text: Detailed overview of the condition of materials and structures within the
       home
 asbestosBlock:
-  title: Asbestos testing
+  title: Asbestos Inspection
   image: /img/asbestos-5.jpg
   listitem:
     - title: " "
