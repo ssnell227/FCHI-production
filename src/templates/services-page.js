@@ -62,6 +62,7 @@ const ServicesPage = ({ data }) => {
         pricingBlock={frontmatter.pricingBlock}
         titleRef={titleRef}
         buttonRef={buttonRef}
+        subtitleLinks={frontmatter.subtitleLinks}
       />
     </Layout>
   )
@@ -78,6 +79,11 @@ export const servicesPageQuery = graphql`
         subtitle
         meta_title
         meta_description
+        subtitleLinks {
+          interNACHI_link
+          sampleReportLink
+          text
+        }
         asbestosBlock {
           image
           title
@@ -106,6 +112,10 @@ export const servicesPageQuery = graphql`
           title
           listitem {
             text
+            link {
+              text
+              href
+            }
           }
         }
         wellWaterBlock {
@@ -113,6 +123,10 @@ export const servicesPageQuery = graphql`
           title
           listitem {
             text
+            link {
+              text
+              href
+            }
           }
         }
         pricingBlock {

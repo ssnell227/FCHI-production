@@ -8,7 +8,7 @@ import InfoBlock from '../InfoBlock'
 const ServicesPageTemplate = ({
     title,
     subtitleTop,
-    subtitle,
+    subtitleLinks,
     meta_title,
     meta_description,
     asbestosBlock,
@@ -36,6 +36,10 @@ const ServicesPageTemplate = ({
             <div className='container'>
                 <section className='section section--gradient'>
                     <h3 className='subtitle has-text-centered'>{subtitleTop}</h3>
+                    <a href={subtitleLinks.interNACHI_link} target='_blank'><h3 className='subtitle has-text-centered standards-link'>{subtitleLinks.text}</h3></a>
+                    <div className='buttons is-centered sample-report-container'>
+                    <a className='button is-large is-primary' href={subtitleLinks.sampleReportLink} target='_blank'>View Sample Report</a>
+                    </div>
                     <div className='columns'>
                         <div className='column '>
                             <figure className='image is-square'>

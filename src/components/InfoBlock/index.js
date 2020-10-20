@@ -15,11 +15,12 @@ const InfoBlock = ({ content, smallImg }) => (
         <div className='content'>
           <h2>{content.title}</h2>
           <ul>
+            {/* {console.log(content.listitem)} */}
             {content.listitem.map((item, index) => (
               <li key={`info-item-${index}`}>
                 {item.title && <h3>{item.title}</h3>}
                 <p>{item.text}</p>
-                {/* {item.link && <a href={item.link.href}><p>{item.link.text}</p></a>} */}
+                {item.link && <a href={item.link.href}><p>{item.link.text}</p></a>}
               </li>
             ))}
           </ul>
