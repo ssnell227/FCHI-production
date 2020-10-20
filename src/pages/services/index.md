@@ -1,12 +1,11 @@
 ---
 templateKey: services-page
 title: What is a home inspection?
-subtitleTop: Our residential home inspections consist of a comprehensive, "top
+subtitleTop: 'Our residential home inspections consist of a comprehensive, "top
   to bottom," analysis of property conditions.  This includes assessment of home
   safety and structural integrity by a certified inspector.  Your customized
   report will include written and photographic information about all home
-  inspection findings.  Our inspections are guided by the InterNACHI Home
-  Inspection Standards of Practice.  LINK TO SAMPLE REPORT HERE
+  inspection findings. '
 subtitleLinks:
   text: Our inspections are guided by the InterNACHI Home Inspection Standards of
     Practice.
