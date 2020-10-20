@@ -1,0 +1,36 @@
+.card {
+    border-radius: 10px;
+}
+
+.review-card {
+    cursor: pointer;
+    transition: transform 100ms, color 100ms;
+    &:hover {
+        transform: scale(1.05, 1.05);
+        .star-container {
+            color: gold;
+        }
+    }
+    .icon-container {
+        .star-container {
+            width: 100%;
+            margin: auto;
+        }
+    }
+    
+    .text-container {
+        max-height: 200px;
+        overflow: hidden;
+    }
+}
+
+.review-modal {
+    
+    .icon-container {
+        .star-container {
+            width: 100%;
+            margin: auto;
+        }
+    }
+    
+}

@@ -1,0 +1,9 @@
+.services-card {
+    transition: transform 100ms;
+    &:hover {
+        transform: scale(1.05, 1.05)
+    }
+    border-radius: 5px;
+    overflow: hidden;
+}
+

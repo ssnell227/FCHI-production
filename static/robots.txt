@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: */admin/
+Disallow: */tags/
+
+sitemap: https://clever-curie-9ad9a0.netlify.app/sitemap.xml

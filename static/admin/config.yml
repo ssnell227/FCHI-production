@@ -1,0 +1,415 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "misc"
+    label: "Misc"
+    files:
+      - file: "src/misc/header.md"
+        label: "Header"
+        name: "Header"
+        fields:
+          - { label: "Schedule Link", name: "schedule-link", widget: "string" }
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/pages/index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "home-page",
+            }
+          - {
+              label: Carousel,
+              name: carousel,
+              widget: object,
+              fields:
+                [
+                  {
+                    label: Carousel1,
+                    name: carousel1,
+                    widget: object,
+                    fields:
+                      [
+                        { label: title, name: title, widget: string },
+                        { label: text, name: text, widget: text },
+                        { label: image, name: image, widget: image },
+                      ],
+                  },
+                  {
+                    label: Carousel2,
+                    name: carousel2,
+                    widget: object,
+                    fields:
+                      [
+                        { label: title, name: title, widget: string },
+                        { label: text, name: text, widget: text },
+                        { label: image, name: image, widget: image },
+                      ],
+                  },
+                  {
+                    label: Carousel3,
+                    name: carousel3,
+                    widget: object,
+                    fields:
+                      [
+                        { label: title, name: title, widget: string },
+                        { label: text, name: text, widget: text },
+                        { label: image, name: image, widget: image },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Booking Banner",
+              name: bookingBanner,
+              widget: list,
+              fileds:
+                [{ label: "Banner item", name: bannerItem, widget: string }],
+            }
+          - { label: Heading, name: heading, widget: string }
+          - { label: Description, name: description, widget: text }
+          - {
+              label: Services,
+              name: services,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: title, name: title, widget: string },
+                ],
+            }
+          - {
+              label: WhyBlock,
+              name: whyblock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+      - file: "src/pages/about/index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "about-page",
+            }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - {
+              label: "About block item",
+              name: aboutBlockItem,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: title, name: title, widget: string },
+                  { label: Subtitle, name: subtitle, widget: string },
+                  { label: Blurb, name: blurb, widget: text },
+                ],
+            }
+          - { label: "About image", name: aboutImage, widget: image }
+      - file: "src/pages/contact/index.md"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "contact-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+      - file: "src/pages/services/index.md"
+        label: "Services Page"
+        name: "services"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "services-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: SubtitleTop, name: subtitleTop, widget: string }
+          - {
+              label: SubtitleLinks,
+              name: subtitleLinks,
+              widget: object,
+              fields:
+                [
+                  { label: text, name: text, widget: string },
+                  {
+                    label: interNACHI-link,
+                    name: interNACHI-link,
+                    widget: string,
+                  },
+                  {
+                    label: sample-report-link,
+                    name: sampleReportLink,
+                    widget: string,
+                  },
+                ],
+            }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - {
+              label: "Home Inspection Block",
+              name: homeInspectionBlock,
+              widget: list,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  { label: Text, name: text, widget: text },
+                ],
+            }
+          - {
+              label: "asbestos Block",
+              name: asbestosBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Lead Block",
+              name: leadBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Radon Block",
+              name: radonBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                        {
+                          label: Link,
+                          name: link,
+                          widget: object,
+                          fields:
+                            [
+                              { label: link-text, name: text, widget: string },
+                              { label: link-url, name: href, widget: string },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Well Water Block",
+              name: wellWaterBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                        {
+                          label: Link,
+                          name: link,
+                          widget: object,
+                          fields:
+                            [
+                              { label: link-text, name: text, widget: string },
+                              { label: link-url, name: href, widget: string },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Pricing Block",
+              name: pricingBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  {
+                    label: HomeInspectionPricing,
+                    name: homeInspectionPricing,
+                    widget: object,
+                    fields:
+                      [
+                        { label: title, name: title, widget: string },
+                        {
+                          label: pricing,
+                          name: pricing,
+                          widget: list,
+                          fields:
+                            [
+                              { label: text, name: text, widget: text },
+                              { label: price, name: price, widget: string },
+                            ],
+                        },
+                      ],
+                  },
+                  {
+                    label: AdditionalPricing,
+                    name: additionalPricing,
+                    widget: object,
+                    fields:
+                      [
+                        { label: title, name: title, widget: string },
+                        {
+                          label: pricing,
+                          name: pricing,
+                          widget: list,
+                          fields:
+                            [
+                              { label: item, name: item, widget: text },
+                              { label: price, name: price, widget: string },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+      - file: "src/pages/regions/index.md"
+        label: "Regions Page"
+        name: "regions"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "regions-page",
+            }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - { label: Title, name: title, widget: string }
+          - {
+              label: "Regions Served",
+              name: regionsServed,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  {
+                    label: regionType,
+                    name: regionType,
+                    widget: list,
+                    fields:
+                      [
+                        { label: title, name: title, widget: text },
+                        { label: blurb, name: blurb, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: regionsList,
+              name: regionsList,
+              widget: list,
+              fields:
+                [
+                  {
+                    label: region,
+                    name: region,
+                    widget: object,
+                    fields:
+                      [
+                        { label: areaName, name: areaName, widget: string },
+                        { label: County, name: county, widget: string },
+                        { label: zipCode, name: zipCode, widget: number },
+                      ],
+                  },
+                ],
+            }

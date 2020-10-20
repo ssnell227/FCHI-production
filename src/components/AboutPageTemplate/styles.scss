@@ -1,0 +1,41 @@
+.about-hero {
+    position: relative;
+    padding: 30px;
+    margin: 60px 0px;
+
+    
+        background-image: url('/img/rebecca-harris-4tHf_TAnpBI-unsplash.jpg');
+        background-position: 50% 60%;
+        background-size: 100%;
+    
+    .about-title {
+        color: white;
+        position: absolute;
+        top: 60%;
+        right: 10%;
+    }
+
+}
+
+.about-block-container {
+    min-height: 690px;
+    .large-icon {
+        & svg {
+            font-size: 100px;
+            margin: auto;
+        }
+    }
+    .about-block-titles {
+        min-height: 148px;
+    }
+
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    .about-link {
+        margin: 10px;
+    }
+}

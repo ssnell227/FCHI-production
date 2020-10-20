@@ -1,0 +1,16 @@
+.top-nav {
+    @media (max-width: 1024px) {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .media-icons {
+        .navbar-item {
+            color: white;
+        }
+        @media (max-width: 1024px) {
+            align-items: center;
+            justify-content: stretch;
+        }
+        
+    }
+}

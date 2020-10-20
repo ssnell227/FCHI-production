@@ -1,0 +1,31 @@
+.region-card {
+    min-height: 400px;
+    .regions-list {
+        height: 180px;
+        margin-top: 20px;
+        list-style-type: square;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+}
+
+.regions-hero {
+    position: relative;
+    padding: 30px;
+    margin: 60px 0px;
+
+    background-image: url('/img/large-aubrey-odom-gza4ry46vhs-unsplash.jpg');
+    background-position: center;
+    background-size: 100%;
+   
+    .regions-title {
+        color: white;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+}

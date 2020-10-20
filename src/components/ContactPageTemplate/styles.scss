@@ -1,0 +1,17 @@
+.contact-hero {
+    position: relative;
+    padding: 30px;
+    margin: 60px 0px;
+
+    background-image: url('/img/engin-yapici-wc_9tvrxg9y-unsplash.jpg');
+    background-position: center;
+    background-size: 100%;
+    
+    .contact-title {
+        color: white;
+        position: absolute;
+        top: 60%;
+        right: 10%;
+    }
+
+}
