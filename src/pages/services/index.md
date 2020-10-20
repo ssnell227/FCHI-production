@@ -9,8 +9,8 @@ subtitleTop: Our residential home inspections consist of a comprehensive, "top
   Inspection Standards of Practice.  LINK TO SAMPLE REPORT HERE
 subtitle: Other Services
 meta_title: Services
-meta_description: Our residential home inspections consist of a comprehensive,
-  "top to bottom," analysis of property conditions.
+meta_description: 'Our residential home inspections consist of a comprehensive,
+  "top to bottom," analysis of property conditions. '
 homeInspectionBlock:
   - title: Evidence
     text: Gathering photos and measurements with careful attention to detail
