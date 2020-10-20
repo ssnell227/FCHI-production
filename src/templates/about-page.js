@@ -78,7 +78,6 @@ export const aboutPageQuery = graphql`
         meta_description
         aboutBlockItem {
           blurb
-          image
           subtitle
           title
         }

@@ -137,7 +137,6 @@ collections:
               widget: list,
               fields:
                 [
-                  { label: Image, name: image, widget: image },
                   { label: title, name: title, widget: string },
                   { label: Subtitle, name: subtitle, widget: string },
                   { label: Blurb, name: blurb, widget: text },
