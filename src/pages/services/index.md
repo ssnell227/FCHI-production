@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ---
 templateKey: services-page
 title: What is a home inspection?
@@ -125,4 +123,3 @@ pricingBlock:
       - item: Water Testing (Detailed Water Analysis with Bacteria Testing)
         price: $350
 ---
->>>>>>> 379bb06d4995921502eb1b38fbb29e86b30d5f22
