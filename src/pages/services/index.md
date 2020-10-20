@@ -51,9 +51,6 @@ radonBlock:
         real-time radon levels and digitally stores them.  Results are sent to
         you in the form of an electronic document.  LINK TO SAMPLE REPORT HERE
       title: " "
-      link:
-        - text: blah
-        - href: https://www.8a.nu/
 wellWaterBlock:
   title: Water Testing
   listitem:
