@@ -10,7 +10,7 @@ subtitleLinks:
   text: Our inspections are guided by the InterNACHI Home Inspection Standards of
     Practice.
   interNACHI-link: https://www.nachi.org/documents2012/InterNACHI_SOP_and_COE-March_2018.pdf
-  sampleReportLink: https://www.8a.nu/
+  sampleReportLink: https://drive.google.com/file/d/1XFyo55VzBlIi3PNVBN7mLwntKSI7qyQ-/view?usp=sharing
 subtitle: Other Services
 meta_title: Services
 meta_description: 'Our residential home inspections consist of a comprehensive,
@@ -53,11 +53,11 @@ radonBlock:
     - text: This test involves using specialized equipment over the course of two days
         at the test site.  During this time, the radon monitor measures
         real-time radon levels and digitally stores them.  Results are sent to
-        you in the form of an electronic document.  LINK TO SAMPLE REPORT HERE
+        you in the form of an electronic document.
       title: " "
       link:
         text: View Sample Report
-        href: https://www.8a.nu/
+        href: https://drive.google.com/file/d/1yavBXFjylWAq6tVEtyfiaoMZ3oUnuIWC/view?usp=sharing
 wellWaterBlock:
   title: Water Testing
   listitem:
@@ -65,12 +65,11 @@ wellWaterBlock:
         Compliant, Detailed Analysis, Bacteria Analysis, etc.), with varying
         pricing.  This test may take up to 10 days, which include taking a water
         sample and having it analyzed at a certified laboratory.  Results are
-        sent to you in the form of an electronic document.  LINK TO SAMPLE
-        REPORT HERE
+        sent to you in the form of an electronic document.
       title: " "
       link:
         text: View Sample Report
-        href: https://www.8a.nu/
+        href: https://drive.google.com/file/d/1lgIbh_3jX-raPtjvR-4oWb0wvMCM-CyE/view?usp=sharing
   image: /img/water-testing.jpg
 pricingBlock:
   title: Pricing
