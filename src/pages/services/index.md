@@ -7,6 +7,11 @@ subtitleTop: Our residential home inspections consist of a comprehensive, "top
   report will include written and photographic information about all home
   inspection findings.  Our inspections are guided by the InterNACHI Home
   Inspection Standards of Practice.  LINK TO SAMPLE REPORT HERE
+subtitleLinks:
+  text: Our inspections are guided by the InterNACHI Home Inspection Standards of
+    Practice.
+  interNACHI-link: https://www.nachi.org/documents2012/InterNACHI_SOP_and_COE-March_2018.pdf
+  sampleReportLink: https://www.8a.nu/
 subtitle: Other Services
 meta_title: Services
 meta_description: 'Our residential home inspections consist of a comprehensive,
@@ -64,6 +69,9 @@ wellWaterBlock:
         sent to you in the form of an electronic document.  LINK TO SAMPLE
         REPORT HERE
       title: " "
+      link:
+        text: View Sample Report
+        href: https://www.8a.nu/
   image: /img/water-testing.jpg
 pricingBlock:
   title: Pricing
