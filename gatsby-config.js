@@ -149,11 +149,11 @@ module.exports = {
         apiKey: GOOGLE_PLACES_API
       }
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options :{
-    //     trackingId: GOOGLE_ANALYTICS_TRACKING_ID
-    //   }
-    // }
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options :{
+        trackingId: GOOGLE_ANALYTICS_TRACKING_ID
+      }
+    }
   ],
 }
