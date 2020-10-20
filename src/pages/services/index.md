@@ -10,7 +10,7 @@ subtitleLinks:
   text: Our inspections are guided by the InterNACHI Home Inspection Standards of
     Practice.
   interNACHI-link: https://www.nachi.org/documents2012/InterNACHI_SOP_and_COE-March_2018.pdf
-  sampleReportLink: https://www.8a.nu/
+  sampleReportLink: https://drive.google.com/file/d/1XFyo55VzBlIi3PNVBN7mLwntKSI7qyQ-/view?usp=sharing
 subtitle: Other Services
 meta_title: Services
 meta_description: 'Our residential home inspections consist of a comprehensive,
@@ -57,7 +57,7 @@ radonBlock:
       title: " "
       link:
         text: View Sample Report
-        href: https://www.8a.nu/
+        href: https://drive.google.com/file/d/1yavBXFjylWAq6tVEtyfiaoMZ3oUnuIWC/view?usp=sharing
 wellWaterBlock:
   title: Water Testing
   listitem:
@@ -69,7 +69,7 @@ wellWaterBlock:
       title: " "
       link:
         text: View Sample Report
-        href: https://www.8a.nu/
+        href: https://drive.google.com/file/d/1lgIbh_3jX-raPtjvR-4oWb0wvMCM-CyE/view?usp=sharing
   image: /img/water-testing.jpg
 pricingBlock:
   title: Pricing
