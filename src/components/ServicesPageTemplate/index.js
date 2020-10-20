@@ -64,15 +64,17 @@ const ServicesPageTemplate = ({
                         <Link to='/services#pricing' className='button is-large is-primary level-item button-left'>Pricing</Link>
                         <div className='level-item' />
                         <StaticQuery query={graphql`
-    query scheduleLinkServices  {
-        markdownRemark (id: {eq: "21bc2c2b-fb89-5377-a6dc-536d1c46f8bc"}){
-          frontmatter {
-            schedule_link
+     query scheduleLinkServices {
+        allMarkdownRemark(filter: {frontmatter: {schedule_link: {ne: null}}}) {
+          nodes {
+            frontmatter {
+              schedule_link
+            }
           }
         }
       }
         `} render={data => (
-                                <a target='__blank' href={data.markdownRemark.frontmatter.schedule_link} className='button is-large is-primary level-item button-right'>Book Now</a>
+                                <a target='__blank' href={data.allMarkdownRemark.nodes[0].frontmatter.schedule_link} className='button is-large is-primary level-item button-right'>Book Now</a>
                             )} />
                         <div className='level-item' />
                     </div>

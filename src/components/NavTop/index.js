@@ -10,19 +10,22 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 const NavTop = () => (
     <StaticQuery
         query={graphql`
-    query scheduleLink  {
-        markdownRemark (id: {eq: "21bc2c2b-fb89-5377-a6dc-536d1c46f8bc"}){
-          frontmatter {
-            schedule_link
+        query scheduleLink {
+            allMarkdownRemark(filter: {frontmatter: {schedule_link: {ne: null}}}) {
+              nodes {
+                frontmatter {
+                  schedule_link
+                }
+              }
+            }
           }
-        }
-      }
+          
         `}
         render={data => (
             <nav className='navbar top-nav is-primary is-spaced is-flex-touch'>
                 <div className='navbar-start'>
                     <div className='navbar-item'>
-                        <a target='__blank' href={data.markdownRemark.frontmatter.schedule_link} className='button is-white is-outlined'>Schedule a Home Inspection</a>
+                        <a target='__blank' href={data.allMarkdownRemark.nodes[0].frontmatter.schedule_link} className='button is-white is-outlined'>Schedule a Home Inspection</a>
                     </div>
                 </div>
                 <div className='navbar-end is-flex-touch media-icons'>
