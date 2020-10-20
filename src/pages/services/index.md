@@ -53,7 +53,7 @@ radonBlock:
     - text: This test involves using specialized equipment over the course of two days
         at the test site.  During this time, the radon monitor measures
         real-time radon levels and digitally stores them.  Results are sent to
-        you in the form of an electronic document.  LINK TO SAMPLE REPORT HERE
+        you in the form of an electronic document.
       title: " "
       link:
         text: View Sample Report
@@ -65,8 +65,7 @@ wellWaterBlock:
         Compliant, Detailed Analysis, Bacteria Analysis, etc.), with varying
         pricing.  This test may take up to 10 days, which include taking a water
         sample and having it analyzed at a certified laboratory.  Results are
-        sent to you in the form of an electronic document.  LINK TO SAMPLE
-        REPORT HERE
+        sent to you in the form of an electronic document.
       title: " "
       link:
         text: View Sample Report
