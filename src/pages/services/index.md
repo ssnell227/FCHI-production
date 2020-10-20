@@ -9,7 +9,8 @@ subtitleTop: Our residential home inspections consist of a comprehensive, "top
   Inspection Standards of Practice.  LINK TO SAMPLE REPORT HERE
 subtitle: Other Services
 meta_title: Services
-meta_description: Meta description
+meta_description: Our residential home inspections consist of a comprehensive,
+  "top to bottom," analysis of property conditions.
 homeInspectionBlock:
   - title: Evidence
     text: Gathering photos and measurements with careful attention to detail
@@ -50,7 +51,7 @@ radonBlock:
         real-time radon levels and digitally stores them.  Results are sent to
         you in the form of an electronic document.  LINK TO SAMPLE REPORT HERE
       title: " "
-      link: 
+      link:
         - text: blah
         - href: https://www.8a.nu/
 wellWaterBlock:
