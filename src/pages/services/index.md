@@ -111,8 +111,8 @@ pricingBlock:
         price: $500
       - text: Greater than 5000 Square Feet
         price: Contact us for a quote
-      - text: Extra Residential Dwelling
-        price: $200 in addition to cost of primary dwelling inspection
+      - text: Commercial Building Inspection
+        price: Contact us for a quote.
   additionalPricing:
     title: Additional Services
     pricing:
@@ -124,8 +124,6 @@ pricingBlock:
         price: $125
       - item: Water Testing (FHA/VA Loan Compliant)
         price: $250
-      - item: Water Testing (Detailed Water Analysis)
-        price: $300
       - item: Water Testing (Detailed Water Analysis with Bacteria Testing)
         price: $350
 ---
