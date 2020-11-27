@@ -103,7 +103,7 @@ pricingBlock:
       - item: Well Water Testing (Detailed Water Analysis with Bacteria Testing)
         price: $350
   homeInspectionPricing:
-    title: Home Inspections
+    title: Home/Commercial Inspections
     pricing:
       - text: Up to 3000 Square Feet
         price: $275
@@ -126,4 +126,6 @@ pricingBlock:
         price: $250
       - item: Water Testing (Detailed Water Analysis with Bacteria Testing)
         price: $350
+      - item: Mold Inspection
+        price: Contact us for a quote
 ---
