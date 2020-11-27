@@ -112,7 +112,7 @@ pricingBlock:
       - text: Greater than 5000 Square Feet
         price: Contact us for a quote
       - text: Commercial Building Inspection
-        price: Contact us for a quote.
+        price: Contact us for a quote
   additionalPricing:
     title: Additional Services
     pricing:
