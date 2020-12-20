@@ -1,0 +1,42 @@
+.services-hero {
+    position: relative;
+    margin: 60px 0px;
+    padding: 30px;
+    
+    background-image: url('/img/robert-ostheimer-yzhqa8pj_ui-unsplash-1-.jpg');
+    background-position: 50% 30%;
+    background-size: 100%;
+   
+    .services-title {
+        color: white;
+        position: absolute;
+        left: 10%;
+        top: 60%;
+        width: 50%;
+        max-width: 600px;
+    }
+
+}
+
+.pricing-card {
+    min-height: 400px;
+    
+}
+.pricing-item {
+    margin: 20px 0px;
+}
+.services-block {
+    height:200px;
+}
+
+.standards-link {
+    text-decoration: underline;
+}
+
+.standards-link:hover {
+    color: rgb(50,115,220);
+}
+
+.sample-report-container {
+    margin: 20px 0px;
+}
