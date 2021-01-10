@@ -12,24 +12,26 @@ const CommercialPageTemplate = ({
   meta_title,
   meta_description,
   asbestosBlock,
-  homeInspectionBlock,
+  commercialInspectionBlock,
   leadBlock,
   radonBlock,
-  wellWaterBlock,
+  waterAnalysisBlock,
+  clandestineDrugBlock,
+  heavyMetalsBlock,
   pricingBlock,
   titleRef,
   buttonRef,
 }) => {
-   console.log(title)
+  console.log(title);
   return (
     <div>
       <Helmet>
         <title>{meta_title}</title>
         <meta name="description" content={meta_description} />
       </Helmet>
-      <section className="hero services-hero ">
+      <section className="hero commercial-hero ">
         <div className="hero-body">
-          <div ref={titleRef} className="container box services-title">
+          <div ref={titleRef} className="container box commercial-title">
             <h1 className="title is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered ">
               {title}
             </h1>
@@ -39,7 +41,7 @@ const CommercialPageTemplate = ({
       <div className="container">
         <section className="section section--gradient">
           <h3 className="subtitle has-text-centered">{subtitleTop}</h3>
-          <a href={subtitleLinks.interNACHI_link}  target="_blank">
+          <a href={subtitleLinks.interNACHI_link} target="_blank">
             <h3 className="subtitle has-text-centered standards-link">
               {subtitleLinks?.text}
             </h3>
@@ -57,44 +59,50 @@ const CommercialPageTemplate = ({
             <div className="column ">
               <figure className="image is-square">
                 <img
-                  src={homeInspectionBlock[0].image}
-                  alt={homeInspectionBlock[0].title}
+                  src={commercialInspectionBlock[0].image}
+                  alt={commercialInspectionBlock[0].title}
                 />
               </figure>
               <h3 className="subtitle has-text-centered">
-                {homeInspectionBlock[0].title}
+                {commercialInspectionBlock[0].title}
               </h3>
-              <p className="has-text-centered">{homeInspectionBlock[0].text}</p>
+              <p className="has-text-centered">
+                {commercialInspectionBlock[0].text}
+              </p>
             </div>
             <div className="column ">
               <figure className="image is-square">
                 <img
-                  src={homeInspectionBlock[1].image}
-                  alt={homeInspectionBlock[1].title}
+                  src={commercialInspectionBlock[1].image}
+                  alt={commercialInspectionBlock[1].title}
                 />
               </figure>
               <h3 className="subtitle has-text-centered">
-                {homeInspectionBlock[1].title}
+                {commercialInspectionBlock[1].title}
               </h3>
-              <p className="has-text-centered">{homeInspectionBlock[1].text}</p>
+              <p className="has-text-centered">
+                {commercialInspectionBlock[1].text}
+              </p>
             </div>
             <div className="column ">
               <figure className="image is-square">
                 <img
-                  src={homeInspectionBlock[2].image}
-                  alt={homeInspectionBlock[2].title}
+                  src={commercialInspectionBlock[2].image}
+                  alt={commercialInspectionBlock[2].title}
                 />
               </figure>
               <h3 className="subtitle has-text-centered">
-                {homeInspectionBlock[2].title}
+                {commercialInspectionBlock[2].title}
               </h3>
-              <p className="has-text-centered">{homeInspectionBlock[2].text}</p>
+              <p className="has-text-centered">
+                {commercialInspectionBlock[2].text}
+              </p>
             </div>
           </div>
           <div ref={buttonRef} className="level is-mobile">
             <div className="level-item " />
             <Link
-              to="/services#pricing"
+              to="/commercial#pricing"
               className="button is-large is-primary level-item button-left"
             >
               Pricing
@@ -142,60 +150,16 @@ const CommercialPageTemplate = ({
           <InfoBlock content={radonBlock} smallImg={true} />
         </section>
         <section className="section section--gradient" id="water">
-          <InfoBlock content={wellWaterBlock} smallImg={true} />
+          <InfoBlock content={waterAnalysisBlock} smallImg={true} />
+        </section>
+        <section className="section section--gradient" id="water">
+          <InfoBlock content={heavyMetalsBlock} smallImg={true} />
+        </section>
+        <section className="section section--gradient" id="water">
+          <InfoBlock content={clandestineDrugBlock} smallImg={true} />
         </section>
         <section className="section section--gradient" id="pricing">
           <h2 className="title is-1 has-text-centered">{pricingBlock.title}</h2>
-          <div className="columns">
-            <div className="column">
-              <div className="section">
-                <div className=" pricing-card">
-                  <h3 className="title is-3 has-text-centered">
-                    {pricingBlock.homeInspectionPricing.title}
-                  </h3>
-                  <div className="card-content">
-                    {pricingBlock.homeInspectionPricing.pricing.map(
-                      (pricingItem, index) => (
-                        <div
-                          className="pricing-item"
-                          key={`homeInspectionPricing-${index}`}
-                        >
-                          <p>
-                            <strong>{pricingItem.text}</strong>:{" "}
-                            {pricingItem.price}
-                          </p>
-                        </div>
-                      )
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="column ">
-              <div className="section">
-                <div className="pricing-card">
-                  <h3 className="title is-3 has-text-centered">
-                    {pricingBlock.additionalPricing.title}
-                  </h3>
-                  <div className="card-content">
-                    {pricingBlock.additionalPricing.pricing.map(
-                      (pricingItem, index) => (
-                        <div
-                          className="pricing-item"
-                          key={`homeInspectionPricing-${index}`}
-                        >
-                          <p>
-                            <strong>{pricingItem.item}</strong>:{" "}
-                            {pricingItem.price}
-                          </p>
-                        </div>
-                      )
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </section>
       </div>
     </div>

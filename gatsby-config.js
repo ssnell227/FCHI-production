@@ -1,10 +1,10 @@
-require('dotenv').config()
+require("dotenv").config();
 
-const {GOOGLE_PLACES_API, GOOGLE_ANALYTICS_TRACKING_ID} = process.env
+const { GOOGLE_PLACES_API, GOOGLE_ANALYTICS_TRACKING_ID } = process.env;
 
-const config = require('./config')
+const config = require("./config");
 
-const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
+const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
 
 module.exports = {
   siteMetadata: {
@@ -27,48 +27,48 @@ module.exports = {
     `gatsby-transformer-sharp`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/assets/img`,
-        name: 'uploads',
+        name: "uploads",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
+        name: "pages",
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/misc`,
-        name: 'misc',
+        name: "misc",
       },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/assets/img`,
-        name: 'images',
+        name: "images",
       },
     },
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: "gatsby-remark-relative-images",
             options: {
-              name: 'uploads',
+              name: "uploads",
             },
           },
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
@@ -80,11 +80,18 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-netlify-cms',
+      resolve: "gatsby-plugin-netlify-cms",
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         enableIdentityWidget: true,
         htmlTitle: `Gatsby Starter Business Content Manager`,
+        customizeWebpackConfig: (config, { plugins }) => {
+          config.plugins.push(
+            plugins.define({
+              __MANIFEST_PLUGIN_HAS_LOCALISATION__: JSON.stringify("false"),
+            })
+          );
+        },
       },
     },
     {
@@ -106,10 +113,10 @@ module.exports = {
       options: {
         name: config.siteTitle,
         short_name: config.siteTitleAlt,
-        start_url: '/index.html',
+        start_url: "/index.html",
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
-        display: 'standalone',
+        display: "standalone",
         icons: [
           {
             src: `/icons/icon-192x192.png`,
@@ -134,9 +141,9 @@ module.exports = {
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields` values
           MarkdownRemark: {
-            title: node => node.frontmatter.title,
-            tags: node => node.frontmatter.tags,
-            slug: node => node.fields.slug,
+            title: (node) => node.frontmatter.title,
+            tags: (node) => node.frontmatter.tags,
+            slug: (node) => node.fields.slug,
           },
         },
       },
@@ -146,14 +153,14 @@ module.exports = {
       resolve: `gatsby-source-google-places`,
       options: {
         placeIds: ["ChIJ23RPbQQBWYcRlPpnjKV_NEw"],
-        apiKey: GOOGLE_PLACES_API
-      }
+        apiKey: GOOGLE_PLACES_API,
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
-      options :{
-        trackingId: GOOGLE_ANALYTICS_TRACKING_ID
-      }
-    }
+      options: {
+        trackingId: GOOGLE_ANALYTICS_TRACKING_ID,
+      },
+    },
   ],
-}
+};
