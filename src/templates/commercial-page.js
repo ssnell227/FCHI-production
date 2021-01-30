@@ -64,12 +64,16 @@ const CommercialPage = ({ data }) => {
         leadBlock={frontmatter.leadBlock}
         radonBlock={frontmatter.radonBlock}
         waterAnalysisBlock={frontmatter.waterAnalysisBlock}
-        heavyMetalsBlock={frontmatter.heavyMetalsBlock}
+        moldBlock={frontmatter.moldBlock}
         clandestineDrugBlock={frontmatter.clandestineDrugBlock}
+        airQualityBlock={frontmatter.airQualityBlock}
         pricingBlock={frontmatter.pricingBlock}
         titleRef={titleRef}
         buttonRef={buttonRef}
         subtitleLinks={frontmatter.subtitleLinks}
+        commercialSubsection1={frontmatter.commercialSubsection1}
+        commercialSubsection2={frontmatter.commercialSubsection2}
+        commercialSubsection3={frontmatter.commercialSubsection3}
       />
     </Layout>
   );
@@ -91,14 +95,22 @@ export const commercialPageQuery = graphql`
           sampleReportLink
           text
         }
-        asbestosBlock {
-          image
-          title
-        }
         commercialInspectionBlock {
           image
           text
           title
+        }
+        commercialSubsection1 {
+          title
+          text
+        }
+        commercialSubsection2 {
+          title
+          text
+        }
+        commercialSubsection3 {
+          title
+          text
         }
         asbestosBlock {
           listitem {
@@ -121,7 +133,14 @@ export const commercialPageQuery = graphql`
             text
           }
         }
-        heavyMetalsBlock {
+        airQualityBlock {
+          image
+          title
+          listitem {
+            text
+          }
+        }
+        moldBlock {
           image
           title
           listitem {

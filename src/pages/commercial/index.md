@@ -1,7 +1,7 @@
 ---
 templateKey: commercial-page
 title: Commerical Building Inspections
-subtitleTop: "Blurb about commerical inspections goes here!"
+subtitleTop: Our commercial services include building inspection, environmental consulting, and hazardous materials testing.  Based out of Lander, Wyoming, we offer commercial services throughout the state of Wyoming.  Our licenced and certified inspector provides reports that comply with Department of Environmental Quality (DEQ), Department of Housing and Urban Development (HUD), and Environmental Protection Agency (EPA) requirements.  All commercial services include detailed inspection or testing reports, with user-friendly formatting.
 subtitleLinks:
   text:
     Our inspections are guided by the InterNACHI Home Inspection Standards of
@@ -45,8 +45,17 @@ leadBlock:
         to guide further lead material analysis, if indicated.  Results are sent
         to you in the form of an electronic document.
       title: " "
-heavyMetalsBlock:
-  title: Heavy Metals Testing
+commercialSubsection1:
+  title: Commercial Building Inspection
+  text: Our comprehensive, top-to-bottom commercial building inspections include detailed investigation of building safety, structural integrity, electrical compliance, water damage, and presence of potentially hazardous materials.
+commercialSubsection2:
+  title: Commercial Hazardous Material Inspection
+  text: We offer licenced and certified services for commercial consultation, inspection, and testing for asbestos, lead paint, and mold.  Services comply with both local and federal safety regulations.
+commercialSubsection3:
+  title: Commercial Environmental Testing
+  text: Environmental testing includes air quality testing, surface dust analysis, radon and water safety appraisal, and clandestine drug residue sampling.  All samples are sent to certified laboratories for analysis, and results are provided in a customized report.
+moldBlock:
+  title: Mold Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
     - text: Blurb about testing for heavy metals
@@ -56,6 +65,12 @@ clandestineDrugBlock:
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
     - text: For meth, fentanyl, and others
+      title: " "
+airQualityBlock:
+  title: Air Quality Testing
+  image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
+  listitem:
+    - text: We offer air quality monitoring, microbiology/mold testing, allergen testing, combustible gas testing, and more.
       title: " "
 microbiologyBlock:
   title: Microbiology Testing

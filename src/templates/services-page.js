@@ -1,51 +1,56 @@
-import React, { useRef, useEffect } from 'react'
-import { useIntersection } from 'react-use'
-import Layout from '../components/Layout'
-import ServicesPageTemplate from '../components/ServicesPageTemplate'
-import { graphql } from 'gatsby'
+import React, { useRef, useEffect } from "react";
+import { useIntersection } from "react-use";
+import Layout from "../components/Layout";
+import ServicesPageTemplate from "../components/ServicesPageTemplate";
+import { graphql } from "gatsby";
 
-import { slideIn, slideOut, slideInRight, slideOutRight, fadeIn, fadeOut } from '../utils/animations'
-
+import {
+  slideIn,
+  slideOut,
+  slideInRight,
+  slideOutRight,
+  fadeIn,
+  fadeOut,
+} from "../utils/animations";
 
 const ServicesPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   //title animation
-  const titleRef = useRef(null)
+  const titleRef = useRef(null);
 
   const titleIntersection = useIntersection(titleRef, {
     root: null,
-    rootMargin: '0px',
-    threshold: .2
-  })
+    rootMargin: "0px",
+    threshold: 0.2,
+  });
 
   useEffect(() => {
-    if (titleIntersection && titleIntersection.intersectionRatio > .2) {
-      slideIn('.services-title')
+    if (titleIntersection && titleIntersection.intersectionRatio > 0.2) {
+      slideIn(".services-title");
     } else {
-
-      slideOut('.services-title')
+      slideOut(".services-title");
     }
-  }, [titleIntersection])
+  }, [titleIntersection]);
 
   //button animation
-  const buttonRef = useRef(null)
+  const buttonRef = useRef(null);
 
   const buttonIntersection = useIntersection(buttonRef, {
     root: null,
-    rootMargin: '0px',
-    threshold: .2
-  })
+    rootMargin: "0px",
+    threshold: 0.2,
+  });
 
   useEffect(() => {
-    if (buttonIntersection && buttonIntersection.intersectionRatio > .2) {
-      slideIn('.button-left')
-      slideInRight('.button-right')
+    if (buttonIntersection && buttonIntersection.intersectionRatio > 0.2) {
+      slideIn(".button-left");
+      slideInRight(".button-right");
     } else {
-      slideOut('.button-left')
-      slideOutRight('.button-right')
+      slideOut(".button-left");
+      slideOutRight(".button-right");
     }
-  }, [buttonIntersection])
+  }, [buttonIntersection]);
   return (
     <Layout>
       <ServicesPageTemplate
@@ -65,10 +70,10 @@ const ServicesPage = ({ data }) => {
         subtitleLinks={frontmatter.subtitleLinks}
       />
     </Layout>
-  )
-}
+  );
+};
 
-export default ServicesPage
+export default ServicesPage;
 
 export const servicesPageQuery = graphql`
   query ServicesPage($id: String) {
@@ -149,4 +154,4 @@ export const servicesPageQuery = graphql`
       }
     }
   }
-`
+`;

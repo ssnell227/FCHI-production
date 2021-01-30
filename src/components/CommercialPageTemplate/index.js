@@ -17,12 +17,15 @@ const CommercialPageTemplate = ({
   radonBlock,
   waterAnalysisBlock,
   clandestineDrugBlock,
-  heavyMetalsBlock,
+  moldBlock,
+  airQualityBlock,
   pricingBlock,
   titleRef,
   buttonRef,
+  commercialSubsection1,
+  commercialSubsection2,
+  commercialSubsection3,
 }) => {
-  console.log(title);
   return (
     <div>
       <Helmet>
@@ -46,15 +49,6 @@ const CommercialPageTemplate = ({
               {subtitleLinks?.text}
             </h3>
           </a>
-          <div className="buttons is-centered sample-report-container">
-            <a
-              className="button is-large is-primary"
-              href={subtitleLinks?.sampleReportLink}
-              target="_blank"
-            >
-              View Sample Report
-            </a>
-          </div>
           <div className="columns">
             <div className="column ">
               <figure className="image is-square">
@@ -138,7 +132,16 @@ const CommercialPageTemplate = ({
           </div>
         </section>
         <div className="content">
-          <h2 className="title is-1 has-text-centered">Other Services</h2>
+          <h2 className="title is-1 has-text-centered">
+            {commercialSubsection1.title}
+          </h2>
+          <p>{commercialSubsection1.text}</p>
+        </div>
+        <div className="content">
+          <h2 className="title is-1 has-text-centered">
+            {commercialSubsection2.title}
+          </h2>
+          <p>{commercialSubsection2.text}</p>
         </div>
         <section className="section section--gradient " id="asbestos">
           <InfoBlock content={asbestosBlock} smallImg={true} />
@@ -146,14 +149,23 @@ const CommercialPageTemplate = ({
         <section className="section section--gradient " id="lead">
           <InfoBlock content={leadBlock} smallImg={true} />
         </section>
+        <section className="section section--gradient " id="mold">
+          <InfoBlock content={moldBlock} smallImg={true} />
+        </section>
+        <div className="content">
+          <h2 className="title is-1 has-text-centered">
+            {commercialSubsection3.title}
+          </h2>
+          <p>{commercialSubsection3.text}</p>
+        </div>
+        <section className="section section--gradient" id="airQuality">
+          <InfoBlock content={airQualityBlock} smallImg={true} />
+        </section>
         <section className="section section--gradient" id="radon">
           <InfoBlock content={radonBlock} smallImg={true} />
         </section>
         <section className="section section--gradient" id="water">
           <InfoBlock content={waterAnalysisBlock} smallImg={true} />
-        </section>
-        <section className="section section--gradient" id="water">
-          <InfoBlock content={heavyMetalsBlock} smallImg={true} />
         </section>
         <section className="section section--gradient" id="water">
           <InfoBlock content={clandestineDrugBlock} smallImg={true} />

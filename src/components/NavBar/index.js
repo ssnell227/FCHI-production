@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
-import SearchBox from "../SearchBox";
 
 import "./styles.scss";
 
@@ -40,10 +39,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
               Home
             </Link>
             <Link className="navbar-item" to="/services">
-              Home Services
-            </Link>
-            <Link className="navbar-item" to="/commercial">
-              Commercial Services
+              Residential Services
             </Link>
             <Link className="navbar-item" to="/regions">
               Regions
