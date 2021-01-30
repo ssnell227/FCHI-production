@@ -1,10 +1,16 @@
 ---
 templateKey: commercial-page
 title: Commerical Building Inspections
-subtitleTop: Our commercial services include building inspection, environmental consulting, and hazardous materials testing.  Based out of Lander, Wyoming, we offer commercial services throughout the state of Wyoming.  Our licenced and certified inspector provides reports that comply with Department of Environmental Quality (DEQ), Department of Housing and Urban Development (HUD), and Environmental Protection Agency (EPA) requirements.  All commercial services include detailed inspection or testing reports, with user-friendly formatting.
+subtitleTop: Our commercial services include building inspection, environmental
+  consulting, and hazardous materials testing.  Based out of Lander, Wyoming, we
+  offer commercial services throughout the state of Wyoming.  Our licenced and
+  certified inspector provides reports that comply with Department of
+  Environmental Quality (DEQ), Department of Housing and Urban Development
+  (HUD), and Environmental Protection Agency (EPA) requirements.  All commercial
+  services include detailed inspection or testing reports, with user-friendly
+  formatting.
 subtitleLinks:
-  text:
-    Our inspections are guided by the InterNACHI Home Inspection Standards of
+  text: Our inspections are guided by the InterNACHI Home Inspection Standards of
     Practice.
   interNACHI-link: https://www.nachi.org/documents2012/InterNACHI_SOP_and_COE-March_2018.pdf
   sampleReportLink: https://drive.google.com/file/d/1XFyo55VzBlIi3PNVBN7mLwntKSI7qyQ-/view?usp=sharing
@@ -21,85 +27,109 @@ commercialInspectionBlock:
     image: /img/analysis-1_square.jpg
   - title: Report
     image: /img/report-1_square.jpg
-    text:
-      Detailed overview of the condition of materials and structures within the
+    text: Detailed overview of the condition of materials and structures within the
       home
+commercialSubsection1:
+  title: Commercial Building Inspection
+  text: Our comprehensive, top-to-bottom commercial building inspections include
+    detailed investigation of building safety, structural integrity, electrical
+    compliance, water damage, and presence of potentially hazardous materials.
+commercialSubsection2:
+  title: Commercial Hazardous Material Inspection
+  text: We offer licenced and certified services for commercial consultation,
+    inspection, and testing for asbestos, lead paint, and mold.  Services comply
+    with both local and federal safety regulations.
 asbestosBlock:
   title: Asbestos Inspection
   image: /img/asbestos-5.jpg
   listitem:
     - title: " "
-      text: "Inspection and consultation by a licensed and certified asbestos
-        inspector can be performed in both commercial and residential
-        settings.  Inspections are performed using Asbestos Hazard Emergency
-        Response Act (AHERA) guidelines.  Consultation with a licensed inspector
-        can be used to guide risk mitigation for building renovations, or to
-        address home safety concerns. "
+      text: >
+        As a licenced asbestos consultation and inspection company, we work
+        exclusively with certified laboratories and provide detailed reports on
+        asbestos surveys and findings.  This information can ensure the safety
+        of construction/demolition personnel, compliance with regulatory
+        guidelines, and economical decision-making.
 leadBlock:
   title: Lead Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
-    - text:
-        This test involves performing spot tests of various locations throughout
-        the home.  These results are not comprehensive, but provide information
-        to guide further lead material analysis, if indicated.  Results are sent
-        to you in the form of an electronic document.
+    - text: Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
+        (XRF) technology.  We also offer soil sampling for lead content, and
+        paint chip collection and analysis.  There is no project too big or too
+        small.  Inspection information can help to guide renovations of older
+        buildings, and avoidance of potential health exposures or risks.
       title: " "
-commercialSubsection1:
-  title: Commercial Building Inspection
-  text: Our comprehensive, top-to-bottom commercial building inspections include detailed investigation of building safety, structural integrity, electrical compliance, water damage, and presence of potentially hazardous materials.
-commercialSubsection2:
-  title: Commercial Hazardous Material Inspection
-  text: We offer licenced and certified services for commercial consultation, inspection, and testing for asbestos, lead paint, and mold.  Services comply with both local and federal safety regulations.
-commercialSubsection3:
-  title: Commercial Environmental Testing
-  text: Environmental testing includes air quality testing, surface dust analysis, radon and water safety appraisal, and clandestine drug residue sampling.  All samples are sent to certified laboratories for analysis, and results are provided in a customized report.
 moldBlock:
   title: Mold Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
-    - text: Blurb about testing for heavy metals
+    - text: >
+        We offer inspections by an International Association of Certified Indoor
+        Air Consultants (IAC2) certified mold inspector.  Whether your location
+        contains visible, invisible, or airborne microbial growth or spores, our
+        inspections and reports will provide you with the information that you
+        need to make important safety decisions.
       title: " "
-clandestineDrugBlock:
-  title: Clandestine Drug Testing
-  image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
+commercialSubsection3:
+  title: Commercial Environmental Testing
+  text: Environmental testing includes air quality testing, surface dust analysis,
+    radon and water safety appraisal, and clandestine drug residue
+    sampling.  All samples are sent to certified laboratories for analysis, and
+    results are provided in a customized report.
+radonBlock:
+  title: Radon Testing
+  image: /img/radon-3-square.jpg
   listitem:
-    - text: For meth, fentanyl, and others
+    - text: Radon is a harmful gas that is found throughout Wyoming.  People often
+        test their homes for radon, but many people spend as much time in the
+        workplace as their homes, and could be at risk for radon toxicity there
+        too.  We offer state-of-the-art active radon detection, which provides
+        rapid, real-time, and accurate results.
       title: " "
+      link:
+        text: View Sample Report
+        href: " "
 airQualityBlock:
   title: Air Quality Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
-    - text: We offer air quality monitoring, microbiology/mold testing, allergen testing, combustible gas testing, and more.
+    - text: >
+        We offer air quality monitoring, microbiology/mold testing, allergen
+        testing, combustible gas testing, and more.
       title: " "
+      link:
+        text: " "
+        href: " "
+waterAnalysisBlock:
+  title: Water Analysis
+  listitem:
+    - text: "Our services include sampling of industrial or residential drinking
+        water, waste water, and agricultural/livestock use water.  Testing
+        includes analysis of water samples for chlorine, coliform bacteria,
+        fluoride, hardness, mineral content, nitrogen, pH, phosphorus, presence
+        of heavy metals, and more. "
+      title: " "
+      link:
+        text: " "
+        href: " "
+  image: /img/water-testing.jpg
+clandestineDrugBlock:
+  title: Clandestine Drug Testing
+  image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
+  listitem:
+    - text: "Surface testing enables analysis of samples for the presence of
+        marijuana, methamphetamines, opioids, or tobacco. "
+      title: " "
+      link:
+        text: " "
+        href: " "
+pricingBlock:
+  title: Please contact us for a quote.
 microbiologyBlock:
   title: Microbiology Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
     - text: For mold, allergens, and air quality
       title: " "
-radonBlock:
-  title: Radon Testing
-  image: /img/radon-3-square.jpg
-  listitem:
-    - text:
-        This test involves using specialized equipment over the course of two days
-        at the test site.  During this time, the radon monitor measures
-        real-time radon levels and digitally stores them.  Results are sent to
-        you in the form of an electronic document.
-      title: " "
-      link:
-        text: View Sample Report
-        href:
-waterAnalysisBlock:
-  title: Water Analysis
-  listitem:
-    - text: Custom testing for your commerical project.  Options include testing for heavy metals, bacteria, and others.
-      title: " "
-      link:
-        text: " "
-        href: " "
-  image: /img/water-testing.jpg
-pricingBlock:
-  title: Please contact us for a quote.
 ---
