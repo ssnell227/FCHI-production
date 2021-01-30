@@ -357,6 +357,271 @@ collections:
                   },
                 ],
             }
+      - file: "src/pages/commercial/index.md"
+        label: "Commercial Page"
+        name: "commercial"
+        fields:
+          - {
+              label: "Template Key",
+              name: "templateKey",
+              widget: "hidden",
+              default: "commercial-page",
+            }
+          - { label: Title, name: title, widget: string }
+          - { label: SubtitleTop, name: subtitleTop, widget: string }
+          - {
+              label: SubtitleLinks,
+              name: subtitleLinks,
+              widget: object,
+              fields:
+                [
+                  { label: text, name: text, widget: string },
+                  {
+                    label: interNACHI-link,
+                    name: interNACHI-link,
+                    widget: string,
+                  },
+                  {
+                    label: sample-report-link,
+                    name: sampleReportLink,
+                    widget: string,
+                  },
+                ],
+            }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: "Meta Title", name: "meta_title", widget: "string" }
+          - {
+              label: "Meta Description",
+              name: "meta_description",
+              widget: "text",
+            }
+          - {
+              label: "Commercial Inspection Block",
+              name: commercialInspectionBlock,
+              widget: list,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  { label: Text, name: text, widget: text },
+                ],
+            }
+          - {
+              label: "Commercial Subsection 1",
+              name: commercialSubsection1,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Text, name: text, widget: string },
+                ],
+            }
+          - {
+              label: "Commercial Subsection 2",
+              name: commercialSubsection2,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Text, name: text, widget: string },
+                ],
+            }
+          - {
+              label: "asbestos Block",
+              name: asbestosBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Lead Block",
+              name: leadBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Mold Block",
+              name: moldBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Commercial Subsection 3",
+              name: commercialSubsection3,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Text, name: text, widget: string },
+                ],
+            }
+          - {
+              label: "Radon Block",
+              name: radonBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                        {
+                          label: Link,
+                          name: link,
+                          widget: object,
+                          fields:
+                            [
+                              { label: link-text, name: text, widget: string },
+                              { label: link-url, name: href, widget: string },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Air Quality Block",
+              name: airQualityBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                        {
+                          label: Link,
+                          name: link,
+                          widget: object,
+                          fields:
+                            [
+                              { label: link-text, name: text, widget: string },
+                              { label: link-url, name: href, widget: string },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Water Analysis Block",
+              name: waterAnalysisBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                        {
+                          label: Link,
+                          name: link,
+                          widget: object,
+                          fields:
+                            [
+                              { label: link-text, name: text, widget: string },
+                              { label: link-url, name: href, widget: string },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Clandestine Drug Block",
+              name: clandestineDrugBlock,
+              widget: object,
+              fields:
+                [
+                  { label: Title, name: title, widget: string },
+                  { label: Image, name: image, widget: image },
+                  {
+                    label: ListItem,
+                    name: listitem,
+                    widget: list,
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Text, name: text, widget: text },
+                        {
+                          label: Link,
+                          name: link,
+                          widget: object,
+                          fields:
+                            [
+                              { label: link-text, name: text, widget: string },
+                              { label: link-url, name: href, widget: string },
+                            ],
+                        },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "Pricing Block",
+              name: pricingBlock,
+              widget: object,
+              fields: [{ label: title, name: title, widget: string }],
+            }
       - file: "src/pages/regions/index.md"
         label: "Regions Page"
         name: "regions"
