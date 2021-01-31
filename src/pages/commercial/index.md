@@ -1,6 +1,6 @@
 ---
 templateKey: commercial-page
-title: Commerical Building Inspections
+title: Commerical Services
 subtitleTop: Our commercial services include building inspection, environmental
   consulting, and hazardous materials testing.  Based out of Lander, Wyoming, we
   offer commercial services throughout the state of Wyoming.  Our licenced and
@@ -15,20 +15,19 @@ subtitleLinks:
   interNACHI-link: https://www.nachi.org/documents2012/InterNACHI_SOP_and_COE-March_2018.pdf
   sampleReportLink: https://drive.google.com/file/d/1XFyo55VzBlIi3PNVBN7mLwntKSI7qyQ-/view?usp=sharing
 subtitle: Commercial Services
-meta_title: Services
+meta_title: Commercial Services
 meta_description: 'Our residential home inspections consist of a comprehensive,
   "top to bottom," analysis of property conditions. '
 commercialInspectionBlock:
-  - title: Evidence
-    text: Gathering photos and measurements with careful attention to detail
+  - title: Building Inspection
+    text: " "
     image: /img/electric-2.jpg
-  - title: Analysis
-    text: Review of the results to assess the safety and integrity of the property
+  - title: Hazardous Material Inspection
+    text: " "
     image: /img/analysis-1_square.jpg
-  - title: Report
+  - title: Environmental Testing
     image: /img/report-1_square.jpg
-    text: Detailed overview of the condition of materials and structures within the
-      home
+    text: " "
 commercialSubsection1:
   title: Commercial Building Inspection
   text: Our comprehensive, top-to-bottom commercial building inspections include
