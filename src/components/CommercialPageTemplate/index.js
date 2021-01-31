@@ -44,11 +44,15 @@ const CommercialPageTemplate = ({
       <div className="container">
         <section className="section section--gradient">
           <h3 className="subtitle has-text-centered">{subtitleTop}</h3>
-          <a href={subtitleLinks.interNACHI_link} target="_blank">
-            <h3 className="subtitle has-text-centered standards-link">
-              {subtitleLinks?.text}
+          <hr />
+          <div className="content">
+            <h2 className="title is-1 has-text-centered">
+              {commercialSubsection1.title}
+            </h2>
+            <h3 className="subtitle has-text-centered content">
+              {commercialSubsection1.text}
             </h3>
-          </a>
+          </div>
           <div className="columns">
             <div className="column ">
               <figure className="image is-square">
@@ -93,55 +97,15 @@ const CommercialPageTemplate = ({
               </p>
             </div>
           </div>
-          <div ref={buttonRef} className="level is-mobile">
-            <div className="level-item " />
-            <Link
-              to="/commercial#pricing"
-              className="button is-large is-primary level-item button-left"
-            >
-              Pricing
-            </Link>
-            <div className="level-item" />
-            <StaticQuery
-              query={graphql`
-                query scheduleLinkCommercial {
-                  allMarkdownRemark(
-                    filter: { frontmatter: { schedule_link: { ne: null } } }
-                  ) {
-                    nodes {
-                      frontmatter {
-                        schedule_link
-                      }
-                    }
-                  }
-                }
-              `}
-              render={(data) => (
-                <a
-                  target="__blank"
-                  href={
-                    data.allMarkdownRemark.nodes[0].frontmatter.schedule_link
-                  }
-                  className="button is-large is-primary level-item button-right"
-                >
-                  Book Now
-                </a>
-              )}
-            />
-            <div className="level-item" />
-          </div>
         </section>
-        <div className="content">
-          <h2 className="title is-1 has-text-centered">
-            {commercialSubsection1.title}
-          </h2>
-          <p>{commercialSubsection1.text}</p>
-        </div>
+        <hr />
         <div className="content">
           <h2 className="title is-1 has-text-centered">
             {commercialSubsection2.title}
           </h2>
-          <p>{commercialSubsection2.text}</p>
+          <h3 className="subtitle has-text-centered content">
+            {commercialSubsection2.text}
+          </h3>
         </div>
         <section className="section section--gradient " id="asbestos">
           <InfoBlock content={asbestosBlock} smallImg={true} />
@@ -152,11 +116,14 @@ const CommercialPageTemplate = ({
         <section className="section section--gradient " id="mold">
           <InfoBlock content={moldBlock} smallImg={true} />
         </section>
+        <hr />
         <div className="content">
           <h2 className="title is-1 has-text-centered">
             {commercialSubsection3.title}
           </h2>
-          <p>{commercialSubsection3.text}</p>
+          <h3 className="subtitle has-text-centered content">
+            {commercialSubsection3.text}
+          </h3>
         </div>
         <section className="section section--gradient" id="airQuality">
           <InfoBlock content={airQualityBlock} smallImg={true} />
@@ -170,10 +137,21 @@ const CommercialPageTemplate = ({
         <section className="section section--gradient" id="water">
           <InfoBlock content={clandestineDrugBlock} smallImg={true} />
         </section>
-        <section className="section section--gradient" id="pricing">
-          <h2 className="title is-1 has-text-centered">{pricingBlock.title}</h2>
-        </section>
       </div>
+      <section className="section hero is-primary is-bold">
+        <div className="hero-body">
+          <div className="container booking-banner-content">
+            <div className="content has-text-centered">
+              <Link
+                className="button is-large is-white is-outlined has-text-centered"
+                to="/contact"
+              >
+                {pricingBlock.title}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

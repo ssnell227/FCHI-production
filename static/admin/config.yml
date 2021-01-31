@@ -512,16 +512,6 @@ collections:
                       [
                         { label: Title, name: title, widget: string },
                         { label: Text, name: text, widget: text },
-                        {
-                          label: Link,
-                          name: link,
-                          widget: object,
-                          fields:
-                            [
-                              { label: link-text, name: text, widget: string },
-                              { label: link-url, name: href, widget: string },
-                            ],
-                        },
                       ],
                   },
                 ],

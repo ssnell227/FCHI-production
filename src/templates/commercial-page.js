@@ -152,10 +152,6 @@ export const commercialPageQuery = graphql`
           title
           listitem {
             text
-            link {
-              text
-              href
-            }
           }
         }
         waterAnalysisBlock {

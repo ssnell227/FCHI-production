@@ -10,7 +10,8 @@ subtitleTop: Our commercial services include building inspection, environmental
   services include detailed inspection or testing reports, with user-friendly
   formatting.
 subtitleLinks:
-  text: Our inspections are guided by the InterNACHI Home Inspection Standards of
+  text:
+    Our inspections are guided by the InterNACHI Home Inspection Standards of
     Practice.
   interNACHI-link: https://www.nachi.org/documents2012/InterNACHI_SOP_and_COE-March_2018.pdf
   sampleReportLink: https://drive.google.com/file/d/1XFyo55VzBlIi3PNVBN7mLwntKSI7qyQ-/view?usp=sharing
@@ -27,7 +28,8 @@ commercialInspectionBlock:
     image: /img/analysis-1_square.jpg
   - title: Report
     image: /img/report-1_square.jpg
-    text: Detailed overview of the condition of materials and structures within the
+    text:
+      Detailed overview of the condition of materials and structures within the
       home
 commercialSubsection1:
   title: Commercial Building Inspection
@@ -54,7 +56,8 @@ leadBlock:
   title: Lead Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
-    - text: Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
+    - text:
+        Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
         (XRF) technology.  We also offer soil sampling for lead content, and
         paint chip collection and analysis.  There is no project too big or too
         small.  Inspection information can help to guide renovations of older
@@ -73,7 +76,8 @@ moldBlock:
       title: " "
 commercialSubsection3:
   title: Commercial Environmental Testing
-  text: Environmental testing includes air quality testing, surface dust analysis,
+  text:
+    Environmental testing includes air quality testing, surface dust analysis,
     radon and water safety appraisal, and clandestine drug residue
     sampling.  All samples are sent to certified laboratories for analysis, and
     results are provided in a customized report.
@@ -81,15 +85,13 @@ radonBlock:
   title: Radon Testing
   image: /img/radon-3-square.jpg
   listitem:
-    - text: Radon is a harmful gas that is found throughout Wyoming.  People often
+    - text:
+        Radon is a harmful gas that is found throughout Wyoming.  People often
         test their homes for radon, but many people spend as much time in the
         workplace as their homes, and could be at risk for radon toxicity there
         too.  We offer state-of-the-art active radon detection, which provides
         rapid, real-time, and accurate results.
       title: " "
-      link:
-        text: View Sample Report
-        href: " "
 airQualityBlock:
   title: Air Quality Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg

@@ -38,6 +38,7 @@ const ServicesPageTemplate = ({
       <div className="container">
         <section className="section section--gradient">
           <h3 className="subtitle has-text-centered">{subtitleTop}</h3>
+          <hr />
           <a href={subtitleLinks.interNACHI_link} target="_blank">
             <h3 className="subtitle has-text-centered standards-link">
               {subtitleLinks.text}
@@ -52,6 +53,7 @@ const ServicesPageTemplate = ({
               View Sample Report
             </a>
           </div>
+          <hr />
           <div className="columns">
             <div className="column ">
               <figure className="image is-square">
@@ -128,6 +130,7 @@ const ServicesPageTemplate = ({
             <div className="level-item" />
           </div>
         </section>
+        <hr />
         <div className="content">
           <h2 className="title is-1 has-text-centered">Other Services</h2>
         </div>
@@ -143,6 +146,7 @@ const ServicesPageTemplate = ({
         <section className="section section--gradient" id="water">
           <InfoBlock content={wellWaterBlock} smallImg={true} />
         </section>
+        <hr />
         <section className="section section--gradient" id="pricing">
           <h2 className="title is-1 has-text-centered">{pricingBlock.title}</h2>
           <div className="columns">
