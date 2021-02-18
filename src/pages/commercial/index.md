@@ -7,25 +7,24 @@ subtitleTop: Our commercial services include building inspection, environmental
   certified inspector provides reports that comply with Department of
   Environmental Quality (DEQ), Department of Housing and Urban Development
   (HUD), and Environmental Protection Agency (EPA) requirements.  All commercial
-  services include detailed inspection or testing reports, with user-friendly
-  formatting.
+  services include detailed inspection and/or testing reports, with
+  user-friendly formatting.
 subtitleLinks:
-  text:
-    Our inspections are guided by the InterNACHI Home Inspection Standards of
-    Practice.
-  interNACHI-link: https://www.nachi.org/documents2012/InterNACHI_SOP_and_COE-March_2018.pdf
-  sampleReportLink: https://drive.google.com/file/d/1XFyo55VzBlIi3PNVBN7mLwntKSI7qyQ-/view?usp=sharing
+  text: Delete
+  interNACHI-link: Delete
+  sampleReportLink: Delete
 subtitle: Commercial Services
-meta_title: Commercial Services
-meta_description: 'Our residential home inspections consist of a comprehensive,
-  "top to bottom," analysis of property conditions. '
+meta_title: Commercial Building Inspections
+meta_description: Our commercial inspections consist of a comprehensive
+  evaluation of property conditions, with inclusion of safety considerations,
+  risk assessment, construction flaws, and building irregularities.
 commercialInspectionBlock:
   - title: Building Inspection
     text: " "
-    image: /img/electric-2.jpg
+    image: /img/file_000.jpeg
   - title: Hazardous Material Inspection
     text: " "
-    image: /img/analysis-1_square.jpg
+    image: /img/03-26-16-6-.jpg
   - title: Environmental Testing
     image: /img/report-1_square.jpg
     text: " "
@@ -54,8 +53,7 @@ leadBlock:
   title: Lead Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
-    - text:
-        Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
+    - text: Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
         (XRF) technology.  We also offer soil sampling for lead content, and
         paint chip collection and analysis.  There is no project too big or too
         small.  Inspection information can help to guide renovations of older
@@ -74,17 +72,15 @@ moldBlock:
       title: " "
 commercialSubsection3:
   title: Commercial Environmental Testing
-  text:
-    Environmental testing includes air quality testing, surface dust analysis,
-    radon and water safety appraisal, and clandestine drug residue
-    sampling.  All samples are sent to certified laboratories for analysis, and
-    results are provided in a customized report.
+  text: Environmental testing includes air quality testing, surface dust analysis
+    and clearance, radon and water safety appraisal, and clandestine drug
+    residue sampling.  All samples are sent to certified laboratories for
+    analysis, and results are provided in a customized report.
 radonBlock:
   title: Radon Testing
   image: /img/radon-3-square.jpg
   listitem:
-    - text:
-        Radon is a harmful gas that is found throughout Wyoming.  People often
+    - text: Radon is a harmful gas that is found throughout Wyoming.  People often
         test their homes for radon, but many people spend as much time in the
         workplace as their homes, and could be at risk for radon toxicity there
         too.  We offer state-of-the-art active radon detection, which provides
