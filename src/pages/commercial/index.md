@@ -27,7 +27,7 @@ commercialInspectionBlock:
     text: " "
     image: /img/hazardous-materials.jpg
   - title: Environmental Testing
-    image: /img/report-1_square.jpg
+    image: /img/asbestos-sample-bag-2x.jpeg
     text: " "
 commercialSubsection1:
   title: Commercial Building Inspection
@@ -41,28 +41,28 @@ commercialSubsection2:
     with both local and federal safety regulations.
 asbestosBlock:
   title: Asbestos Inspection
-  image: /img/asbestos-5.jpg
+  image: /img/asbestos-flooring-enhanced-x.jpeg
   listitem:
     - title: " "
       text: >
-        As a licenced asbestos consultation and inspection company, we work
+        As a licensed asbestos consultation and inspection company, we work
         exclusively with certified laboratories and provide detailed reports on
         asbestos surveys and findings.  This information can ensure the safety
         of construction/demolition personnel, compliance with regulatory
         guidelines, and economical decision-making.
 leadBlock:
   title: Lead Testing
-  image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
+  image: /img/lead-paint-1x.png
   listitem:
     - text: Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
         (XRF) technology.  We also offer soil sampling for lead content, and
-        paint chip collection and analysis.  There is no project too big or too
-        small.  Inspection information can help to guide renovations of older
-        buildings, and avoidance of potential health exposures or risks.
+        paint chip collection and analysis.  Inspection information can help to
+        guide renovations of older buildings, and avoidance of potential health
+        exposures or risks.
       title: " "
 moldBlock:
   title: Mold Testing
-  image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
+  image: /img/hallway-ceiling-water-damage-x.png
   listitem:
     - text: >
         We offer inspections by an International Association of Certified Indoor
