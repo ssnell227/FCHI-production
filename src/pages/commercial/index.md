@@ -41,7 +41,7 @@ commercialSubsection2:
     with both local and federal safety regulations.
 asbestosBlock:
   title: Asbestos Inspection
-  image: /img/asbestos-5.jpg
+  image: /img/asbestos-flooring-enhanced-x.jpeg
   listitem:
     - title: " "
       text: >
@@ -52,7 +52,7 @@ asbestosBlock:
         guidelines, and economical decision-making.
 leadBlock:
   title: Lead Testing
-  image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
+  image: /img/lead-paint-1x.png
   listitem:
     - text: Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
         (XRF) technology.  We also offer soil sampling for lead content, and
