@@ -56,13 +56,13 @@ leadBlock:
   listitem:
     - text: Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
         (XRF) technology.  We also offer soil sampling for lead content, and
-        paint chip collection and analysis.  There is no project too big or too
-        small.  Inspection information can help to guide renovations of older
-        buildings, and avoidance of potential health exposures or risks.
+        paint chip collection and analysis.  Inspection information can help to
+        guide renovations of older buildings, and avoidance of potential health
+        exposures or risks.
       title: " "
 moldBlock:
   title: Mold Testing
-  image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
+  image: /img/hallway-ceiling-water-damage-x.png
   listitem:
     - text: >
         We offer inspections by an International Association of Certified Indoor
