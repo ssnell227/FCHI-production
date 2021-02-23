@@ -122,7 +122,7 @@ clandestineDrugBlock:
         text: " "
         href: " "
 pricingBlock:
-  title: Please contact us for a quote.
+  title: Contact Us About a Commercial Inspection
 microbiologyBlock:
   title: Microbiology Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
