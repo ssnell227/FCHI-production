@@ -3,7 +3,7 @@ templateKey: commercial-page
 title: Commerical Services
 subtitleTop: Our commercial services include building inspection, environmental
   consulting, and hazardous materials testing.  Based out of Lander, Wyoming, we
-  offer commercial services throughout the state of Wyoming.  Our licenced and
+  offer commercial services throughout the state of Wyoming.  Our licensed and
   certified inspector provides reports that comply with Department of
   Environmental Quality (DEQ), Department of Housing and Urban Development
   (HUD), and Environmental Protection Agency (EPA) requirements.  All commercial
@@ -14,10 +14,11 @@ subtitleLinks:
   interNACHI-link: Delete
   sampleReportLink: Delete
 subtitle: Commercial Services
-meta_title: Commercial Building Inspections
-meta_description: Our commercial inspections consist of a comprehensive
-  evaluation of property conditions, with inclusion of safety considerations,
-  risk assessment, construction flaws, and building irregularities.
+meta_title: Commercial Building Inspection
+meta_description: Our commercial building inspections consist of a comprehensive
+  evaluation of property conditions, with inclusion of risk assessment and
+  identification of safety considerations, construction flaws, and building
+  irregularities.
 commercialInspectionBlock:
   - title: Building Inspection
     text: " "
@@ -30,9 +31,9 @@ commercialInspectionBlock:
     text: " "
 commercialSubsection1:
   title: Commercial Building Inspection
-  text: Our comprehensive, top-to-bottom commercial building inspections include
-    detailed investigation of building safety, structural integrity, electrical
-    compliance, water damage, and presence of potentially hazardous materials.
+  text: Our commercial building inspections consist of a comprehensive evaluation
+    of property conditions, with inclusion of risk assessment and identification
+    of safety considerations, construction flaws, and building irregularities.
 commercialSubsection2:
   title: Commercial Hazardous Material Inspection
   text: We offer licenced and certified services for commercial consultation,
