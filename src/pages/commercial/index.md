@@ -110,7 +110,7 @@ waterAnalysisBlock:
       link:
         text: " "
         href: " "
-  image: /img/water-testing.jpg
+  image: /img/water-quality-x.jpg
 clandestineDrugBlock:
   title: Clandestine Drug Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
