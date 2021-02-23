@@ -45,7 +45,7 @@ asbestosBlock:
   listitem:
     - title: " "
       text: >
-        As a licenced asbestos consultation and inspection company, we work
+        As a licensed asbestos consultation and inspection company, we work
         exclusively with certified laboratories and provide detailed reports on
         asbestos surveys and findings.  This information can ensure the safety
         of construction/demolition personnel, compliance with regulatory
