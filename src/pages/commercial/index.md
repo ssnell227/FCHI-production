@@ -22,10 +22,10 @@ meta_description: Our commercial building inspections consist of a comprehensive
 commercialInspectionBlock:
   - title: Building Inspection
     text: " "
-    image: /img/file_000.jpeg
+    image: /img/file_000x.jpeg
   - title: Hazardous Material Inspection
     text: " "
-    image: /img/03-26-16-6-.jpg
+    image: /img/hazardous-materials.jpg
   - title: Environmental Testing
     image: /img/report-1_square.jpg
     text: " "
