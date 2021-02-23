@@ -27,7 +27,7 @@ commercialInspectionBlock:
     text: " "
     image: /img/hazardous-materials.jpg
   - title: Environmental Testing
-    image: /img/report-1_square.jpg
+    image: /img/asbestos-sample-bag-2x.jpeg
     text: " "
 commercialSubsection1:
   title: Commercial Building Inspection
