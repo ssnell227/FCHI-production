@@ -36,7 +36,7 @@ commercialSubsection1:
     of safety considerations, construction flaws, and building irregularities.
 commercialSubsection2:
   title: Commercial Hazardous Material Inspection
-  text: We offer licenced and certified services for commercial consultation,
+  text: We offer licensed and certified services for commercial consultation,
     inspection, and testing for asbestos, lead paint, and mold.  Services comply
     with both local and federal safety regulations.
 asbestosBlock:
@@ -55,10 +55,10 @@ leadBlock:
   image: /img/lead-paint-1x.png
   listitem:
     - text: Our EPA-certified inspector is trained in the use of X-Ray Fluorescence
-        (XRF) technology.  We also offer soil sampling for lead content, and
-        paint chip collection and analysis.  Inspection information can help to
-        guide renovations of older buildings, and avoidance of potential health
-        exposures or risks.
+        (XRF) technology, as well as paint chip collection and analysis.  We
+        offer lead dust clearance monitoring for abatement
+        contractors.  Inspection data can help to guide renovations of older
+        buildings, and avoidance of potential health exposures or risks.
       title: " "
 moldBlock:
   title: Mold Testing
@@ -79,7 +79,7 @@ commercialSubsection3:
     analysis, and results are provided in a customized report.
 radonBlock:
   title: Radon Testing
-  image: /img/radon-3-square.jpg
+  image: /img/dsc07532x.jpg
   listitem:
     - text: Radon is a harmful gas that is found throughout Wyoming.  People often
         test their homes for radon, but many people spend as much time in the
@@ -89,7 +89,7 @@ radonBlock:
       title: " "
 airQualityBlock:
   title: Air Quality Testing
-  image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
+  image: /img/5-11-11_utah_glen-canyon-43-x.jpg
   listitem:
     - text: >
         We offer air quality monitoring, microbiology/mold testing, allergen
@@ -110,7 +110,7 @@ waterAnalysisBlock:
       link:
         text: " "
         href: " "
-  image: /img/water-testing.jpg
+  image: /img/water-quality-x.jpg
 clandestineDrugBlock:
   title: Clandestine Drug Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
@@ -122,7 +122,7 @@ clandestineDrugBlock:
         text: " "
         href: " "
 pricingBlock:
-  title: Please contact us for a quote.
+  title: Contact Us About a Commercial Inspection
 microbiologyBlock:
   title: Microbiology Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
