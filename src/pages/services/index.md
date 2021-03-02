@@ -41,10 +41,23 @@ leadBlock:
   title: Lead Testing
   image: /img/tim-mossholder-vj1enh83l_a-unsplash.jpg
   listitem:
-    - text: This test involves performing spot tests of various locations throughout
-        the home.  These results are not comprehensive, but provide information
-        to guide further lead material analysis, if indicated.  Results are sent
-        to you in the form of an electronic document.
+    - text: >-
+        As an EPA recognized lead based paint inspector and risk assessor we
+        offer 5 tiers of lead inspection.
+
+
+        -Lead hazard screen 
+
+        -Lead risk assessment 
+
+        -Lead risk assessment/lead paint inspection combo
+
+        -Lead paint inspection 
+
+        -Elevated Blood Level (EBL) investigations
+
+
+        We are trained in X-Ray Florescent (XRF) technology as well as paint chip, water, and soil sampling.
       title: " "
 radonBlock:
   title: Radon Testing
@@ -119,7 +132,7 @@ pricingBlock:
       - item: Asbestos Inspection
         price: Contact us for a quote
       - item: Lead Testing
-        price: $50 (includes 3 spot tests)
+        price: Contact us for pricing
       - item: Radon Testing
         price: $125
       - item: Water Testing (FHA/VA Loan Compliant)
