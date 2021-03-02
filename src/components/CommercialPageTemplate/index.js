@@ -45,14 +45,15 @@ const CommercialPageTemplate = ({
         <section className="section section--gradient">
           <h3 className="subtitle has-text-centered">{subtitleTop}</h3>
           <hr />
-          <div className="content">
-            <h2 className="title is-1 has-text-centered">
-              {commercialSubsection1.title}
-            </h2>
-            <h3 className="subtitle has-text-centered content">
-              {commercialSubsection1.text}
-            </h3>
+          <div className="content has-text-centered">
+            <Link
+              className="button is-large is-primary has-text-centered"
+              to="/contact"
+            >
+              {pricingBlock.title}
+            </Link>
           </div>
+          <hr />
           <div className="columns">
             <div className="column ">
               <figure className="image is-square">
@@ -97,8 +98,19 @@ const CommercialPageTemplate = ({
               </p>
             </div>
           </div>
+          <hr />
+          <div className="content">
+            <h2 className="title is-1 has-text-centered">
+              {commercialSubsection1.title}
+            </h2>
+            <div className="section">
+              <h3 className="subtitle has-text-centered content">
+                {commercialSubsection1.text}
+              </h3>
+            </div>
+          </div>
+          <hr />
         </section>
-        <hr />
         <div className="content">
           <h2 className="title is-1 has-text-centered">
             {commercialSubsection2.title}
