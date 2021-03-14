@@ -41,6 +41,9 @@ const NavBar = ({ toggleNavbar, isActive }) => (
             <Link className="navbar-item" to="/services">
               Residential Services
             </Link>
+            <Link className="navbar-item" to="/commercial">
+              Commercial Services
+            </Link>
             <Link className="navbar-item" to="/regions">
               Regions
             </Link>
