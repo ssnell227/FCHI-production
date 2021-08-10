@@ -119,7 +119,7 @@ pricingBlock:
     title: Home/Commercial Inspections
     pricing:
       - text: Up to 3000 Square Feet
-        price: $300
+        price: $400
       - text: 3000 to 5000 Square Feet
         price: $500
       - text: Greater than 5000 Square Feet
